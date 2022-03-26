@@ -1,0 +1,20 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha",
+    "start-test": "nyc npm run test"
+  },
+  "author": "acer",
+  "license": "-",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.3",
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0"
+  }
+}
